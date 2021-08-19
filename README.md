@@ -1,6 +1,6 @@
 ### Example of API Testing Framework using Python, Pytest, Pytest-BDD, and Requests.
 
-TODO: add GIFs
+![49599ACE-7C32-41A8-A327-8AFBFD3F218B](https://user-images.githubusercontent.com/10586980/129997542-7facdc6a-d2bb-44a2-beea-b5b7f106fcaa.GIF)
 
 ### How to Build/Run locally:
 #### clone repo:
