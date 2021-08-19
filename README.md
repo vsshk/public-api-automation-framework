@@ -20,8 +20,13 @@ $ env/Scripts/activate (for win)
 $ source env/bin/activate (for mac-linux)
 $ pip install -r requirements.txt
 ```
-#### Running  tests
+#### Running all tests
 ```
 pytest --base_url https://swapi.dev/api/
+
+```
+#### Running smoke tests
+```
+pytest --base_url https://swapi.dev/api/ tests
 
 ```
