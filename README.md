@@ -35,3 +35,22 @@ pytest --base_url https://swapi.dev/api/
 pytest --base_url https://swapi.dev/api/ tests
 
 ```
+
+
+### Explanation of my approuch
+- Framwork was written using public api "Swapi - The Star Wars API" link: https://swapi.dev/documentation#root
+- Added 3 smoke tests and 9 BDD tests
+- BDD tests were written using Gherking language
+- Tests were verified "Planet" and "People" endpoints
+- Rest of the endpoints were skipped according to documentation 
+
+### PROS
+- Easy readable Gherkin language
+- Using Python allowing rapid coding
+- Pytest BDD makes it easy to contribute to the Framwork
+
+
+### CONS
+- Lack of page object implementation
+- "How to" contribute needs to be added to "ReadMe.md"
+- Not all API endpoints were covered 
